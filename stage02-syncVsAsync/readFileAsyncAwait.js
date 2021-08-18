@@ -1,4 +1,4 @@
-const readFile = require('fs').promises.readFile;
+const readFile = require('fs.promises').readFile;
 
 let read = async() =>{
     try {

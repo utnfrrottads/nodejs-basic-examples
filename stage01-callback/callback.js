@@ -1,4 +1,4 @@
-const list=['a', 'white',15,true,{firstName:"John",lastName:"Doeperez"}];
+const list=['a', 'white',15,true,{firstName:"John",lastName:"Doe"}];
 let i=0;
 
 const log = (text) => console.log(text);

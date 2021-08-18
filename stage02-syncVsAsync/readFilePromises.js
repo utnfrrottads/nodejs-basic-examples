@@ -1,5 +1,5 @@
-const readFile = require('fs').promises.readFile;
-
+const readFile = require('fs.promises').readFile;
+//npm install fs.promises
 console.log("Beginning with return...");
 readFile('./items.txt','utf8')
     .then(data => {return data})
