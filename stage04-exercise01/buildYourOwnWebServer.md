@@ -33,7 +33,13 @@ Usando lo que hemos aprendido en los ejemplos anteriores crea to propio servidor
 6. Los errores deben ser manejados.
 7. Escribir a un log (archivo en texto plano) todas las request recividas y los status de las respone devueltas. Idealmente cada entrada del log debería tener una marca de tiempo.
 
+## Lo aprendio hasta el momento
+
+1. Crear un servidor web que reciba peticiones en un puerto determinado y envíe una respuesta http con status y contenido.
+2. Leer archivos de forma asíncrona.
+3. Usar callbacks, promises y async/await
+
 ## A ser investigado por cuenta propia
 1. Determinar si un archivo existe.
 2. Controlar el method de una request http.
-3. Escribir y añador contenido a un archivo de texto.
+3. Escribir y añadir contenido a un archivo de texto.
