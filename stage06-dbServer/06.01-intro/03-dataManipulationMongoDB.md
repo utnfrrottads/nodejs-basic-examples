@@ -275,6 +275,7 @@ La consola **mongosh** se basa en JavaScript y permite definir y utilizar funcio
 ```javascript
 // insert documents, it can be done single lined or multi-lined
 db.clients.insert({
+    "_id" : ObjectId("612400dc68ae392340a8cc35"),
     firstName: 'John',
     lastName: 'Doe',
     pets: [
