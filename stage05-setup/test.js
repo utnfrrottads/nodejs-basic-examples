@@ -1,1 +1,1 @@
-console.log('not index');
+console.log('not from index.js');
