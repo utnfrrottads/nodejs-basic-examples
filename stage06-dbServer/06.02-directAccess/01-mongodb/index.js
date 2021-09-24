@@ -39,19 +39,30 @@ const create = async () => {
     await clientModel.create(client);
 }
 
+const populate = async (clients) => {
+    let petModel = new PetModel();
+    for (let client of clients) {
+        client.pets= await petModel.findPets(client.pets);
+    }
+    return clients;
+}
+
 const list = async () => {
     console.log("Retrieve clients and their pets");
-    let petModel = new PetModel();
     let clientModel = new ClientModel();
-    console.log(await clientModel.getAll());
+
+    let clients = await clientModel.getAll();
+    console.log(JSON.stringify(await populate(clients),null,2));
+
+
 }
 
 const findOne = async () => {
     console.log("Retrieve a single client and their pets");
-    let petModel = new PetModel();
     let clientModel = new ClientModel();
     let res =  prompt("Object Id? ");
-    console.log(await clientModel.findOne(res));
+    let clients = await clientModel.findOne(res)
+    console.log(JSON.stringify(await populate(clients),null,2));
 }
 
 console.log("(C)reate documents\n(L)ist all\n(F)ind one\n(E)xit")

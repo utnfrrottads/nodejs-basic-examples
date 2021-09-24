@@ -1,4 +1,5 @@
 import Db from './db.js'
+import {ObjectId} from "mongodb";
 
 export default class PetModel {
 
@@ -17,5 +18,18 @@ export default class PetModel {
             await cli.close()
         }
 
+    }
+
+    async findPets(pets){
+        let cli;
+        try {
+            cli = await this.db.connect();
+            const cursor = cli.db("vet2").collection("pets").find({_id: {$in: pets}});
+            return await cursor.toArray();
+        } catch(e){
+            console.log(e);
+        } finally {
+            await cli.close()
+        }
     }
 }
