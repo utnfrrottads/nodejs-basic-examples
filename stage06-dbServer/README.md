@@ -20,9 +20,9 @@ En primer lugar nos enfocaremos en la utilización de las bases y en el almacena
 
 En esta sección encontraremos:
 
-* [Data Storage](./05.01-intro/01-dataStorage.md). Donde discutiremos los distintos motores y el uso y soporte que daremos en TTADS a MySql, MongoDB y sus forks.
-* [Intro a mongoDB](./05.01-intro/02-introMongoDB.md). Haremos una breve introducción a los conceptos de MongoDB.
-* [Data manipulation in mongoDB](./05.01-intro/03-dataManipulationMongoDB.md). Mostraremos las operaciones básicas para conectarse a MongoDB, definiremos unos conceptos mínimos para evitar inconvenientes al trabajar con este DBMS y daremos una demostración de las instrucciones necesarias para realizar un CRUD o ABMC.
+* [Data Storage](./06.01-intro/01-dataStorage.md). Donde discutiremos los distintos motores y el uso y soporte que daremos en TTADS a MySql, MongoDB y sus forks.
+* [Intro a mongoDB](./06.01-intro/02-introMongoDB.md). Haremos una breve introducción a los conceptos de MongoDB.
+* [Data manipulation in mongoDB](./06.01-intro/03-dataManipulationMongoDB.md). Mostraremos las operaciones básicas para conectarse a MongoDB, definiremos unos conceptos mínimos para evitar inconvenientes al trabajar con este DBMS y daremos una demostración de las instrucciones necesarias para realizar un CRUD o ABMC.
 
 MySql ya es dictado en las correlativas de TTADS por lo que no ahondaremos en el mismo, en caso de tener que hacer una revisión los invitamos a la revisar el [canal de Gestión de Datos](https://www.youtube.com/channel/UCoK8J8kokocygPSJAZnDh8g) de UTN FRRo.
 
