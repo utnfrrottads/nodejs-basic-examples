@@ -10,7 +10,7 @@ Sin embargo los objetos y el modelo en que son persistidos (registros, documento
 
 ## Bases de datos orientadas a objetos
 
-Obviamente si los objetos se persistieran como objetos, es decir como una representación identica a la que tienen en el lenguaje, no habría ninguna impedancia ni se requeriría mapeo alguno.
+Obviamente si los objetos se persistieran como objetos, es decir como una representación identifica a la que tienen en el lenguaje, no habría ninguna impedancia ni se requeriría mapeo alguno.
 
 Con esto en mente se desarrollaron bases de datos orientadas a objetos para lograr la persistencia de objetos.  Sin embargo las bases de datos orientadas a objetos no han podido siquiera acercarse a la performance ofrecida a las bases de datos relacionales o documentales a pesar de varias décadas de intentarlo y han sido abandonadas casi en su totalidad, en particular para su uso en sistemas medianos o grandes.
 
@@ -74,7 +74,7 @@ En el patron Data Mapper los objetos de la aplicación son llamadas entity y las
 
 * En general las formas más frecuentes de representar las relaciones (claves foráneas en las bases de datos) son en las entidades mediante referencias a otros objetos.
 
-En los siguientes diagramas podemos ver a la izquiera una representación de los objetos y a la derecha una representación de las tablas.
+En los siguientes diagramas podemos ver a la izquierda una representación de los objetos y a la derecha una representación de las tablas.
 
 #### Ejemplos
 

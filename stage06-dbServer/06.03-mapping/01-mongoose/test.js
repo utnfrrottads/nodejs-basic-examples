@@ -1,6 +1,6 @@
-const mongoose =require("mongoose");
-const Pet = require('./models/Pet.js');
-const Client = require('./models/Client.cjs');
+    const mongoose =require("mongoose");
+    const Pet = require('./models/Pet.js');
+    const Client = require('./models/Client.js');
 
 
 const main = async () => {
